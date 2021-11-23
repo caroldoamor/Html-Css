@@ -7,16 +7,26 @@
     <title>Document</title>
     <style>
         body{
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: repeat-y;
+            background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+           /* Shorthand  - background
+           color > image > position > repeat > [Size] >
+           attachmnet
+           */
+
+        background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+        background-size: cover;
+
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +37,8 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat nunc et ipsum lacinia, a semper risus rhoncus. Sed sem nisl, suscipit vitae ipsum eu, tincidunt efficitur quam. Etiam vitae condimentum neque. Quisque id mauris tincidunt, aliquet metus quis, ullamcorper dolor. Suspendisse iaculis feugiat augue eget fringilla. Vivamus vitae leo orci. Sed lorem nulla, mattis id consequat vitae, porttitor ac lacus. Fusce et nibh luctus, euismod odio vitae, molestie neque. Praesent malesuada fermentum hendrerit. Proin nec urna suscipit, fermentum velit at, euismod risus. Suspendisse potenti. Proin nec leo id felis consectetur ultricies. Praesent luctus vel orci varius suscipit. Aliquam ultricies viverra tortor. In hac habitasse platea dictumst.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat nunc et ipsum lacinia, a semper risus rhoncus. Sed sem nisl, suscipit vitae ipsum eu, tincidunt efficitur quam. Etiam vitae condimentum neque. Quisque id mauris tincidunt, aliquet metus quis, ullamcorper dolor. Suspendisse iaculis feugiat augue eget fringilla. Vivamus vitae leo orci. Sed lorem nulla, mattis id consequat vitae, porttitor ac lacus. Fusce et nibh luctus, euismod odio vitae, molestie neque. Praesent malesuada fermentum hendrerit. Proin nec urna suscipit, fermentum velit at, euismod risus. Suspendisse potenti. Proin nec leo id felis consectetur ultricies. Praesent luctus vel orci varius suscipit. Aliquam ultricies viverra tortor. In hac habitasse platea dictumst.
+        </p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat nunc et ipsum lacinia, a semper risus rhoncus. Sed sem nisl, suscipit vitae ipsum eu, tincidunt efficitur quam. Etiam vitae condimentum neque. Quisque id mauris tincidunt, aliquet metus quis, ullamcorper dolor. Suspendisse iaculis feugiat augue eget fringilla. Vivamus vitae leo orci. Sed lorem nulla, mattis id consequat vitae, porttitor ac lacus. Fusce et nibh luctus, euismod odio vitae, molestie neque. Praesent malesuada fermentum hendrerit. Proin nec urna suscipit, fermentum velit at, euismod risus. Suspendisse potenti. Proin nec leo id felis consectetur ultricies. Praesent luctus vel orci varius suscipit. Aliquam ultricies viverra tortor. In hac habitasse platea dictumst.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat nunc et ipsum lacinia, a semper risus rhoncus. Sed sem nisl, suscipit vitae ipsum eu, tincidunt efficitur quam. Etiam vitae condimentum neque. Quisque id mauris tincidunt, aliquet metus quis, ullamcorper dolor. Suspendisse iaculis feugiat augue eget fringilla. Vivamus vitae leo orci. Sed lorem nulla, mattis id consequat vitae, porttitor ac lacus. Fusce et nibh luctus, euismod odio vitae, molestie neque. Praesent malesuada fermentum hendrerit. Proin nec urna suscipit, fermentum velit at, euismod risus. Suspendisse potenti. Proin nec leo id felis consectetur ultricies. Praesent luctus vel orci varius suscipit. Aliquam ultricies viverra tortor. In hac habitasse platea dictumst.
         </p>
     </main>
