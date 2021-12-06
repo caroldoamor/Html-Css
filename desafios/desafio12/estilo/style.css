@@ -12,6 +12,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
@@ -53,7 +54,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
-    font-size: 3.5em;
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -61,13 +62,13 @@ section.normal {
     color: black;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.imagem {
     background-color: rgb(51, 51, 51);
     color: white;
-}
-
-section > p {
-    padding-bottom: 2em;
 }
 
 section.imagem > p{
