@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        caption {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            padding: 5px;
+        }
+        thead > tr > th {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 5px;
+        }
+        tbody {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 250px;
+            text-align: center;
+        }
+        th, td, caption {
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Teste mesclagem de células</h1>
+    <table>
+        <caption>
+            Brasil
+        </caption>
+       <thead>
+          <tr>
+              <th>Estado</th>
+              <th>Time</th>
+          </tr>
+       </thead>
+       <tbody>
+            <tr>
+                <td rowspan="4">São Paulo</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>Santos</td>
+            </tr>
+            <tr>
+                <td>Corinthians</td>
+            </tr>
+            <tr>
+               <td>Palmeiras</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Rio de Janeiro</td>
+                <td>Flamengo</td>
+            </tr>
+            <tr>
+                <td>Botafogo</td>
+            </tr>
+            <tr>
+                <td>Vasco</tr>
+            </tr>
+            <tr>
+                <td>Fluminense</td>
+            </tr>
+       </tbody>
+
+    </table>
+</body>
+</html>
