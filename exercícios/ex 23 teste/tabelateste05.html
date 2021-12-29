@@ -15,8 +15,11 @@
         }
         th, td {
             border: 1px solid black;
-            padding: 10px;
+            padding: 5px;
             text-align: center;
+        }
+        th.cor {
+            background-color: #f5cd79;
         }
     </style>
 </head>
@@ -25,16 +28,16 @@
     <table>
         <thead>
             <tr>
-                <th>Ano</th>
-                <th>Trimestre</th>
-                <th>Loja</th>
-                <th>Quantidade</th>
-                <th>Faturamento</th>
+                <th scope="col" class="cor">Ano</th>
+                <th scope="col" class="cor">Trimestre</th>
+                <th scope="col" class="cor">Loja</th>
+                <th scope="col" class="cor">Quantidade</th>
+                <th scope="col" class="cor">Faturamento</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th  rowspan="12">2018</th>
+                <th rowspan="12" scope="rowgroup">2018</th>
                 <td rowspan="3">T1</td>
                 <td>Belo Horizonte</td>
                 <td>438</td>
@@ -77,6 +80,76 @@
                 <td>176</td>
                 <td>R$ 706</td>
             </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>272</td>
+                <td>R$ 1.088</td>
+            </tr>
+            <tr>
+                <td rowspan="3">T4</td>
+                <td>Belo Horizonte</td>
+                <td>407</td>
+                <td>R$ 1.628</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>165</td>
+                <td>R$ 660</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>390</td>
+                <td>R$ 1.560</td>
+            </tr>
+            <tr>
+                <th rowspan="9" scope="rowgroup">2019</th>
+                <td rowspan="3">T1</td>
+                <td>Belo Horizonte</td>
+                <td>158</td>
+                <td>R$ 631</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>48</td>
+                <td>R$ 191</td>
+            </tr>
+             <tr>
+                 <td>São Paulo</td>
+                 <td>12</td>
+                 <td>R$ 48</td>
+             </tr>
+             <tr>
+                 <td rowspan="3">T2</td>
+                 <td>Belo Horizonte</td>
+                 <td>115</td>
+                 <td>R$ 459</td>
+             </tr>
+             <tr>
+                 <td>Rio de Janeiro</td>
+                 <td>272</td>
+                 <td>R$ 1.088</td>
+             </tr>
+             <tr>
+                 <td>São Paulo</td>
+                 <td>281</td>
+                 <td>R$ 1.124</td>
+             </tr>
+             <tr>
+                 <td rowspan="3">T3</td>
+                 <td>Belo Horizonte</td>
+                 <td>316</td>
+                 <td>R$ 1.263</td>
+             </tr>
+             <tr>
+                 <td>Rio de Janeiro</td>
+                 <td>505</td>
+                 <td>R$ 2.019</td>
+             </tr>
+             <tr>
+                 <td>São Paulo</td>
+                 <td>421</td>
+                 <td>R$ 1.682</td>
+             </tr>
         </tbody>
     </table>
 </body>
