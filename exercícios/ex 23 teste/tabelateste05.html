@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 550px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela Teste</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Ano</th>
+                <th>Trimestre</th>
+                <th>Loja</th>
+                <th>Quantidade</th>
+                <th>Faturamento</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th  rowspan="12">2018</th>
+                <td rowspan="3">T1</td>
+                <td>Belo Horizonte</td>
+                <td>438</td>
+                <td>R$ 1.751</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>509</td>
+                <td>R$ 2.035</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>238</td>
+                <td>R$ 950</td>
+            </tr>
+            <tr>
+                <td rowspan="3">T2</td>
+                <td>Belo Horizonte</td>
+                <td>439</td>
+                <td>R$ 1.756</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>121</td>
+                <td>R$ 484</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>336</td>
+                <td>R$ 1.344</td>
+            </tr>
+            <tr>
+                <td rowspan="3">T3</td>
+                <td>Belo Horizonte</td>
+                <td>376</td>
+                <td>R$ 1.505</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>176</td>
+                <td>R$ 706</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
