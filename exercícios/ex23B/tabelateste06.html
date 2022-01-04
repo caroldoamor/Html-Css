@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 700px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        .grupo1 {
+            background-color: #f1c40f;
+        }
+        .grupo2 {
+            background-color: #e74c3c;
+        }
+        .grupo3 {
+            background-color: #d35400;
+        }
+        td.cidade {
+            text-align: justify;
+        }
+        td.nome {
+            text-align: justify;
+        }
+        td.profissao {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas colunas coloridas</h1>
+    <table>
+        <colgroup>
+        <col class="grupo1" span="2">
+        <col class="grupo2">
+        <col class="grupo3" span="2">
+        </colgroup>
+        <thead>
+            <tr>
+               <th>NOME</th>
+               <th>IDADE</th>
+               <th>PROFISSÃO</th>
+               <th>CIDADE</th>
+               <th>RENDA MENSAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="nome">Luiz</td>
+                <td>35</td>
+                <td class="profissao">Publicitário</td>
+                <td class="cidade">Santos</td>
+                <td>3900</td>
+            </tr>
+            <tr>
+                <td class="nome">Matheus</td>
+                <td>29</td>
+                <td class="profissao">Técnico de informática</td>
+                <td class="cidade">São Paulo</td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td class="nome">Fernando</td>
+                <td>26</td>
+                <td class="profissao">Zelador</td>
+                <td class="cidade">São Paulo</td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td class="nome">Pedro</td>
+                <td>28</td>
+                <td class="profissao">Vendedor</td>
+                <td class="cidade">Santo André</td>
+                <td>2700</td>
+            </tr>
+            <tr>
+                <td class="nome">Rodrigo</td>
+                <td>26</td>
+                <td class="profissao">Dentista</td>
+                <td class="cidade">São Paulo</td>
+                <td>2500</td>
+            </tr>
+            <tr>
+                <td class="nome">Guilherme</td>
+                <td>27</td>
+                <td class="profissao">Analista de RH</td>
+                <td class="cidade">Santos</td>
+                <td>2200</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
